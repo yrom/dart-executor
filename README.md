@@ -2,13 +2,27 @@
 
 Like the Java single thread pool based on Isolate.
 
-## Example
+## Install
 
+Add this to your package's pubspec.yaml file:
+```
+dependencies:
+  executor: 
+    git: https://github.com/yrom/dart-executor.git
+```
 
+Get it:
+```
+$ pub get
+```
+
+Import it:
 ``` dart
 import 'package:executor/executor.dart';
 
 ```
+
+## Example
 
 Use the global `cachedExecutor`:
 
