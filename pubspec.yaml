@@ -1,0 +1,15 @@
+name: executor
+author: Yrom Wang <hi@yongrong.wang>
+description: Executor which like the Java single thread pool based on Isolate.
+homepage: https://github.com/yrom/dart-executor
+
+version: 0.0.2
+
+environment:
+  sdk: '>=2.3.0 <3.0.0'
+
+dependencies:
+
+dev_dependencies:
+  test: ^1.3.0
+  http: ^0.12.0
