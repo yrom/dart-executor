@@ -12,7 +12,7 @@ import 'util.dart';
 ///
 abstract class Executor {
 
-  /// Execute `computation(argument)` in the [isolate] and return the result.
+  /// Execute `computation(argument)` in the [Isolate] and return the result.
   ///
   /// Example:
   /// ```
